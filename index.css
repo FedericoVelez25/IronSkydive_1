@@ -48,6 +48,12 @@ h5 {
 .nav-bar {
   background-color: rgb(25 33 41);
 }
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
 .nav-bar a {
   color: white;
   text-decoration: none;
@@ -129,3 +135,11 @@ h5 {
 .footer ul {
   list-style: none;
 }
+
+/* Tablet Media Queries */
+
+/* @media (min-width: 390px) and (max-width: 844px) {
+  * {
+    font-size: 3px;
+  }
+} */
